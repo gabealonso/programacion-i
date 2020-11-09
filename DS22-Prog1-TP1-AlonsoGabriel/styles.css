@@ -1,0 +1,54 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin-top: 100px;
+}
+
+.form {
+    width: 450px;
+    margin: auto;
+    background: rgb(255, 25, 60);
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#message {
+    color: green;
+}
+
+.form h2, p {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form label {
+    color: white;
+    margin-top: 20px;
+}
+
+.form input {
+    height: 20px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.form select {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#btn {
+    height: 30px;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    background-color: lightgray;
+}

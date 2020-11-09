@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Homebanking</title>
+</head>
+<body>
+    <form action="newAccount.php" method="POST" class="form">
+        <h2>Home Banking</h2>
+        <p>Create new account</p>
+        <input type="text" name="name" placeholder="Name">
+        <input type="number" name="balance" placeholder="Account balance">
+        <select name="type">
+            <option value="sa">Savings account</option>
+            <option value="ca">Current account</option>
+            <option value="special">Special savings account</option>
+        </select>
+        <input type="submit" id="btn" value="Create account">
+    </form>
+</body>
+</html>
